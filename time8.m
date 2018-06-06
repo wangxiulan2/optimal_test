@@ -1,5 +1,5 @@
-%¶¯Ì¬,½«ÆØÆøÒ²»»³É¶¯Ì¬
-%½«²½³¤±äÎª0.25
+%åŠ¨æ€,å°†æ›æ°”ä¹Ÿæ¢æˆåŠ¨æ€
+%å°†æ­¥é•¿å˜ä¸º0.25
 global baoqi yanyang queyang
 baoqi=1;
 yanyang=1;
@@ -8,7 +8,7 @@ ybq_sum=[];
 ybq_sum2=[];
 ybq_sum3=[];
 %%baoqi
-    baoqi=1;
+    baoqi=2;
      %%%%%%%%%%%%%%%%%%%%queyang
         queyang=1
         x_optimal=x0;
@@ -69,7 +69,7 @@ ybq_sum3=[];
        end
        queyang=queyang+0.25
    end
-   [min_objtnp,minhang]=min(ybq_sum(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+   [min_objtnp,minhang]=min(ybq_sum(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp2=min_objtnp;
     ybq_sum=ybq_sum(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum(:,2));
@@ -147,7 +147,7 @@ ybq_sum3=[];
        queyang=queyang+0.25
    end
    %%%%%%%%%%%%%%%%%%%%queyang
-    [min_objtnp,minhang]=min(ybq_sum(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+    [min_objtnp,minhang]=min(ybq_sum(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp2=min_objtnp;
     ybq_sum=ybq_sum(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum(:,2));
@@ -166,7 +166,7 @@ ybq_sum3=[];
        
 end 
 %%baoqi
- [min_objtnp,minhang]=min(ybq_sum2(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+ [min_objtnp,minhang]=min(ybq_sum2(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp3=min_objtnp;
     ybq_sum2=ybq_sum2(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum2(:,2));
@@ -249,7 +249,7 @@ while (yanyang>=1)&(yanyang<=4)
        end
        queyang=queyang+0.25
    end
-   [min_objtnp,minhang]=min(ybq_sum(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+   [min_objtnp,minhang]=min(ybq_sum(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp2=min_objtnp;
     ybq_sum=ybq_sum(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum(:,2));
@@ -327,7 +327,7 @@ while (yanyang>=1)&(yanyang<=4)
        queyang=queyang+0.25
    end
    %%%%%%%%%%%%%%%%%%%%queyang
-    [min_objtnp,minhang]=min(ybq_sum(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+    [min_objtnp,minhang]=min(ybq_sum(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp2=min_objtnp;
     ybq_sum=ybq_sum(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum(:,2));
@@ -346,7 +346,7 @@ while (yanyang>=1)&(yanyang<=4)
        
 end 
 %%baoqi
-[min_objtnp,minhang]=min(ybq_sum2(:,4));%ÊÔÊÔÆØÆø¶¯Ì¬
+[min_objtnp,minhang]=min(ybq_sum2(:,4));%è¯•è¯•æ›æ°”åŠ¨æ€
    objtnp3=min_objtnp;
     ybq_sum2=ybq_sum2(minhang,[1 2 3 4 ]);
      [min_objtnp,minhang]=min(ybq_sum2(:,2));
